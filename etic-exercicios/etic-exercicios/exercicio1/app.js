@@ -75,3 +75,36 @@ document.body.appendChild(buttonCenas)
 
 const h1 = document.querySelector("h1")
 h1.innerText = "app test clicked"
+
+
+
+
+class Cenas {
+
+    #view;
+
+    constructor(callback) {
+        this.#view = document.createElement("div");
+        this.#view.onclick = () => callback();
+        
+        document.body.appendChild(this.#view);
+    }
+
+    set width(value) {
+        this.#view.style.width = value + "px";
+    }
+
+
+    set height(value) {
+        this.#view.style.height = value + "px";
+    }
+
+
+    set ackground(value) {
+        this.#view.style.backgroundColor = value;
+    }
+}
+
+const cena = new Cenas(() => {
+    console.log("cenas aconteceram")
+})
