@@ -1,0 +1,112 @@
+[
+    {
+      "type": "Bird",
+      "name": "Seagull",
+      "canFly": true,
+      "action": "Flying"
+    },
+    {
+      "type": "Bird",
+      "name": "Toucan",
+      "canFly": true,
+      "action": "Flying"
+    },
+    {
+      "type": "Bird",
+      "name": "Chicken",
+      "canFly": false,
+      "action": "Not flying"
+    },
+    {
+      "type": "Mammal",
+      "name": "Demon-Horse",
+      "legs": 4,
+      "action": "Walking"
+    },
+    {
+      "type": "Mammal",
+      "name": "Camel",
+      "legs": 4,
+      "action": "Walking"
+    },
+    {
+      "type": "Reptile",
+      "name": "Snake",
+      "canBite": true,
+      "introduction": "I am a Snake and I like Snake Jazz!"
+    },
+    {
+      "type": "Reptile",
+      "name": "Crocodile",
+      "canBite": true,
+      "action": "Biting"
+    },
+    {
+      "type": "Reptile",
+      "name": "Gecko",
+      "canBite": false,
+      "action": "Not biting"
+    },
+    {
+      "type": "Bird",
+      "name": "Eagle",
+      "canFly": true,
+      "action": "Flying"
+    },
+    {
+      "type": "Bird",
+      "name": "Penguin",
+      "canFly": false,
+      "action": "Not flying"
+    },
+    {
+      "type": "Bird",
+      "name": "Ostrich",
+      "canFly": false,
+      "action": "Not flying"
+    },
+    {
+      "type": "Mammal",
+      "name": "Lion",
+      "legs": 4,
+      "action": "Walking"
+    },
+    {
+      "type": "Mammal",
+      "name": "Giraffe",
+      "legs": 4,
+      "action": "Walking"
+    },
+    {
+      "type": "Reptile",
+      "name": "Iguana",
+      "canBite": true,
+      "introduction": "I am an Iguana and I like basking in the sun."
+    },
+    {
+      "type": "Reptile",
+      "name": "Komodo Dragon",
+      "canBite": true,
+      "action": "Biting"
+    },
+    {
+      "type": "Reptile",
+      "name": "Chameleon",
+      "canBite": false,
+      "action": "Not biting"
+    },
+    {
+      "type": "Mammal",
+      "name": "Elephant",
+      "legs": 4,
+      "action": "Walking"
+    },
+    {
+      "type": "Bird",
+      "name": "Hummingbird",
+      "canFly": true,
+      "action": "Flying"
+    }
+  ]
+  
+  
