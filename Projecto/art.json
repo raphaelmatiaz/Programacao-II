@@ -1,0 +1,110 @@
+[
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 01",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/1.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 02",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/2.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 03",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/3.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 04",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/4.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 05",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/5.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 06",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/6.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 07",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/7.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 08",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/8.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 09",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/9.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 10",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/10.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 11",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/11.jpg",
+        "artist": "Rafael Matias"
+
+    },
+    {
+        "type": "drawing",
+        "title": "Untitled Drawing 12",
+        "medium": "Pen on Paper",
+        "date": 2023,
+        "image": "./drawings/12.jpg",
+        "artist": "Rafael Matias"
+
+    }
+]
