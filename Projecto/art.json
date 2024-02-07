@@ -106,5 +106,167 @@
         "image": "./drawings/12.jpg",
         "artist": "Rafael Matias"
 
+    },
+
+
+
+
+
+
+
+
+
+    {
+    "type": "Instrumental Demo",
+    "title": "Birth of the Universe",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "Sulfur",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "Gallium",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "Arsenic",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Unfinished Demo",
+    "title": "Plutonium",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Loop",
+    "title": "Loop I",
+    "medium": "Lo-fi",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "Tesla Coil",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "Gaz Moutarde",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Instrumental Demo",
+    "title": "Oxygen",
+    "medium": "Rock/Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "Ripples",
+    "medium": "Rock/Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Instrumental Demo",
+    "title": "Oganesson",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Instrumental Demo",
+    "title": "Antimatter",
+    "medium": "Rock/Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Instrumental Demo",
+    "title": "Bismuth",
+    "medium": "Metal",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Beat",
+    "title": "125",
+    "medium": "Hip-Hop/Electronic Instrumental",
+    "date": 2022,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Beat",
+    "title": "Despair",
+    "medium": "Lo-fi/Hip-Hop",
+    "date": 2022,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Riff",
+    "title": "S.P.O.O.K",
+    "medium": "Math Rock/Polyphia Style",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
+    },
+    {
+    "type": "Ambient Experimental",
+    "title": "1FILE. 1584611311",
+    "medium": "Ambient Experimental",
+    "date": 2023,
+    "image": null,
+    "audio": "./drawings/11.jpg",
+    "artist": "Rafael Matias"
     }
 ]

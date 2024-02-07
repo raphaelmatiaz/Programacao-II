@@ -35,7 +35,7 @@ export default class Zoo {
 
         this.#currentAnimal = this.#animals.find(anim => anim.name === animal.name);
         this.#currentAnimal.active = true;
-        document.querySelector("h2").innerText = this.#currentAnimal.name;
+        
         
         this.#callback(animal);
     }
