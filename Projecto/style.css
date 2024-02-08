@@ -174,9 +174,7 @@ h4 {
     text-transform: uppercase;
     font-size: 14.83vw;
     margin-top: -7%; 
-    /* overflow: hidden; */
-    background-color: aquamarine;
-    /* line-height: 1rem; */
+    background-color: rgba(127, 255, 212, 0);
 }
 
 #app {

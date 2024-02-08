@@ -121,8 +121,8 @@
     "title": "Birth of the Universe",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/birthOfTheUniverse.jpg",
+    "audio": "./audios/BirthOfTheUniverse.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -130,8 +130,8 @@
     "title": "Sulfur",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/sulfur.jpg",
+    "audio": "./audios/Sulfur.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -139,8 +139,8 @@
     "title": "Gallium",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/gallium.jpg",
+    "audio": "./audios/Gallium.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -148,8 +148,8 @@
     "title": "Arsenic",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/arsenic.jpg",
+    "audio": "./audios/Arsenic.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -157,8 +157,8 @@
     "title": "Plutonium",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/plutonium.jpg",
+    "audio": "./audios/Plutonium.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -166,8 +166,8 @@
     "title": "Loop I",
     "medium": "Lo-fi",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/loop1.jpg",
+    "audio": "./audios/Loop1.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -175,8 +175,8 @@
     "title": "Tesla Coil",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/teslaCoil.jpg",
+    "audio": "./audios/TeslaCoil.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -184,8 +184,8 @@
     "title": "Gaz Moutarde",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/gazMoutarde.jpg",
+    "audio": "./audios/GazMoutarde.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -193,8 +193,8 @@
     "title": "Oxygen",
     "medium": "Rock/Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/oxygen.jpg",
+    "audio": "./audios/Oxygen.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -202,8 +202,8 @@
     "title": "Ripples",
     "medium": "Rock/Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/ripples.jpg",
+    "audio": "./audios/Ripples.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -211,8 +211,8 @@
     "title": "Oganesson",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/oganesson.jpg",
+    "audio": "./audios/Oganesson.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -220,8 +220,8 @@
     "title": "Antimatter",
     "medium": "Rock/Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/antimatter.jpg",
+    "audio": "./audios/Antimatter.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -229,8 +229,8 @@
     "title": "Bismuth",
     "medium": "Metal",
     "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/bismuth.jpg",
+    "audio": "./audios/Bismuth.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -238,8 +238,8 @@
     "title": "125",
     "medium": "Hip-Hop/Electronic Instrumental",
     "date": 2022,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/125.jpg",
+    "audio": "./audios/125.wav",
     "artist": "Rafael Matias"
     },
     {
@@ -247,26 +247,26 @@
     "title": "Despair",
     "medium": "Lo-fi/Hip-Hop",
     "date": 2022,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "image": "./soundCloudImages/despair.jpg",
+    "audio": "./audios/Despair.wav",
     "artist": "Rafael Matias"
     },
     {
     "type": "Riff",
     "title": "S.P.O.O.K",
     "medium": "Math Rock/Polyphia Style",
-    "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "date": 2022,
+    "image": "./soundCloudImages/S.P.O.O.K.jpg",
+    "audio": "./audios/S.P.O.O.K.wav",
     "artist": "Rafael Matias"
     },
     {
     "type": "Ambient Experimental",
-    "title": "1FILE. 1584611311",
+    "title": "FILE. 1584611311",
     "medium": "Ambient Experimental",
-    "date": 2023,
-    "image": null,
-    "audio": "./drawings/11.jpg",
+    "date": 2022,
+    "image": "./soundCloudImages/file.jpg",
+    "audio": "./audios/FILE.1584611311.wav",
     "artist": "Rafael Matias"
     }
 ]

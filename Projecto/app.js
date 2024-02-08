@@ -2,7 +2,6 @@ window.onload = () => {
 
 // FUNCOES
 
-
 // load um ficheiro json em array
 const loadData = async (url)  => {
 
@@ -11,6 +10,8 @@ const loadData = async (url)  => {
     return result;
 
 }
+
+console.log(loadData("art.json"))
 
 // criar elementos html em funcao does dados de um array
 const DataArrayToHTML = (arr) => {
