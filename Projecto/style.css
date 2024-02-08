@@ -18,18 +18,26 @@
 
 }
 
+.art-wrapper {
+    min-width: 28rem;
+    min-height: 28rem;
+    background-color: rgba(128, 255, 0, 0.107);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
-
-.art-item {
-    width: 20rem;
-
+.artPiece {
+    width: 29rem;
+    object-fit: cover;
+    overflow: hidden;
 }
 
 .indicator-dot {
     background-color: black;
-    width: 2vw;
-    height: 0.7em;
+    width: 1.3vw;
+    height: 0.4em;
     gap: 2px;
     border-radius: 10px;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
@@ -166,21 +174,25 @@ p {
     flex-direction: column;
     flex: 1;
     background: linear-gradient(to top right, rgba(41, 43, 38, 1), rgba(255, 255, 255, 1));
-    
+    overflow: hidden;
 }
 
 h4 {
     font-family:'Sansita', sans-serif ;
     text-transform: uppercase;
     font-size: 14.83vw;
-    margin-top: -7%; 
+    margin-top: -7.1%; 
     background-color: rgba(127, 255, 212, 0);
 }
+
+
+/*------------------------------------------------*/
+/*CARROUSSEL ELEMENTS*/
 
 #app {
     /* height: 99%; */
     flex: 1;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -188,16 +200,42 @@ h4 {
 }
 
 #art-gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     height: 80%;
     width: 100%;
-    background-color: blue;
+    margin-top: 0.5rem;
+    /* background-color: blue; */
 }
 
 .art-info {
-    height: 20%;
-    width: 45%;
-    background-color: blueviolet;
+    height: 15%;
+    width: 29rem;
+    /* background-color: blueviolet; */
 }
+
+#main-image-area {
+    box-shadow: 15px 15px 50px rgba(0, 0, 0, 0.7);
+}
+
+#previous-image-area {
+    margin-left: -10vw;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+#next-image-area {
+    margin-right: -10vw;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+}
+
+h5 {
+    color: white;
+    font-size: 1.5rem;
+    font-family:math;
+}
+/*--------------------------------------------*/
+
 
 #footer {
     
@@ -205,8 +243,8 @@ h4 {
     display: flex;
     align-items: end;
     justify-content: center;
-    background-color: green;
-    max-height: 10%;
+    /* background-color: green; */
+    max-height: 5%;
 
 }
 
@@ -214,4 +252,9 @@ h4 {
     display: flex;
     gap: 2px;
     margin-bottom: 1rem;
+}
+
+#next-img {
+    position: relative;
+    
 }

@@ -7,6 +7,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
     <script type="module" src="app.js"></script>
@@ -59,14 +62,24 @@
 
         <div id="app">
             <div id="art-gallery">
-                <div class="item">
-                    <img src="" alt="">
+                
+                <div class="art-wrapper"id="previous-image-area">
+                    <img class="artPiece" id="previous-img" src="drawings/1.jpg" alt="">
                 </div>
+
+                <div class="art-wrapper" id="main-image-area">
+                    <img class="artPiece" id="current-img" src="drawings/2.jpg" alt="">
+                </div>
+
+                <div class="art-wrapper" id="next-image-area">
+                    <img class="artPiece" id="next-img" src="drawings/3.jpg" alt="">
+                </div>
+
             </div>
             <div class="art-info">
-                <h5 id="art-title"></h5>
-                <h5 id="art-medium"></h5>
-                <h5 id="year"></h5>
+                <h5 id="art-title">Name of the art piece</h5>
+                <h5 id="art-medium">Medium / techique used</h5>
+                <h5 id="year">2023</h5>
             </div>
 
         </div>

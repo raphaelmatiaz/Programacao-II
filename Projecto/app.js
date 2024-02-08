@@ -1,48 +1,43 @@
-window.onload = () => {
+//-------------------------------------- CODE SETUP ----------------------------------
 
-// FUNCOES
+import Drawing from "./drawing.js";
+import Composition from "./composition.js";
 
-// load um ficheiro json em array
-const loadData = async (url)  => {
 
+
+
+window.onload = async () => {
+    
+let arrayOfDrawings = [];
+let arrayOfCompositions = [];
+
+const loadData = async (url) => {
     let request = await fetch(url);
     let result = await request.json();
     return result;
-
-}
-
-console.log(loadData("art.json"))
-
-// criar elementos html em funcao does dados de um array
-const DataArrayToHTML = (arr) => {
-    let rightSection = document.querySelector("#right-section") 
-for (i in arr) {
-    if (i === "image") {
-        let imageWrapper = document.createElement("span");
-        let imageElement = document.createElement("img");
-        imageElement.innerHTML(i);
-        imageWrapper.appendChild(imageElement);
-        rightSection.appendChild(imageWrapper);
-}
-}
 }
 
 
 
+const iterateOverArrayOfObjects = (array) => {
+    array.forEach(obj => {
+        if (obj.type === "drawing") {
+            let newDrawing = new Drawing(obj.type, obj.title, obj.medium, obj.date, obj.image, obj.artist);
+            arrayOfDrawings.push(newDrawing);
+        } else {
+            let newComposition = new Composition(obj.type, obj.title, obj.medium, obj.date, obj.image, obj.artist);
+            arrayOfCompositions.push(newComposition);
+        };
+    });
+    console.log(arrayOfDrawings);
+    console.log(arrayOfCompositions);
+}
 
 
+//-------------------------------------- CODE EXECUTION ----------------------------------
+
+const data = await loadData("art.json");
+return iterateOverArrayOfObjects(data)
 
 
-
-
-
-
-
-
-
-
-
-
-
-    
 }
