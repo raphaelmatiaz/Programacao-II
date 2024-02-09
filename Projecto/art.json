@@ -3,7 +3,7 @@
         "type": "drawing",
         "title": "Untitled Drawing 01",
         "medium": "Pen on Paper",
-        "date": 2023,
+        "date": 2022,
         "image": "./drawings/1.jpg",
         "artist": "Rafael Matias"
     },
@@ -11,7 +11,7 @@
         "type": "drawing",
         "title": "Untitled Drawing 02",
         "medium": "Pen on Paper",
-        "date": 2023,
+        "date": 2022,
         "image": "./drawings/2.jpg",
         "artist": "Rafael Matias"
     },
@@ -19,7 +19,7 @@
         "type": "drawing",
         "title": "Untitled Drawing 03",
         "medium": "Pen on Paper",
-        "date": 2023,
+        "date": 2022,
         "image": "./drawings/3.jpg",
         "artist": "Rafael Matias"
     },
@@ -27,7 +27,7 @@
         "type": "drawing",
         "title": "Untitled Drawing 04",
         "medium": "Pen on Paper",
-        "date": 2023,
+        "date": 2022,
         "image": "./drawings/4.jpg",
         "artist": "Rafael Matias"
     },
@@ -58,7 +58,7 @@
     {
         "type": "drawing",
         "title": "Untitled Drawing 08",
-        "medium": "Pen on Paper",
+        "medium": "Pen and Marker on Paper",
         "date": 2023,
         "image": "./drawings/8.jpg",
         "artist": "Rafael Matias"
@@ -66,7 +66,7 @@
     {
         "type": "drawing",
         "title": "Untitled Drawing 09",
-        "medium": "Pen on Paper",
+        "medium": "Pen and Marker on Paper",
         "date": 2023,
         "image": "./drawings/9.jpg",
         "artist": "Rafael Matias"
@@ -74,7 +74,7 @@
     {
         "type": "drawing",
         "title": "Untitled Drawing 10",
-        "medium": "Pen on Paper",
+        "medium": "Pen and Marker on Paper",
         "date": 2023,
         "image": "./drawings/10.jpg",
         "artist": "Rafael Matias"
@@ -82,7 +82,7 @@
     {
         "type": "drawing",
         "title": "Untitled Drawing 11",
-        "medium": "Pen on Paper",
+        "medium": "Pen and Marker on Paper",
         "date": 2023,
         "image": "./drawings/11.jpg",
         "artist": "Rafael Matias"
@@ -90,7 +90,7 @@
     {
         "type": "drawing",
         "title": "Untitled Drawing 12",
-        "medium": "Pen on Paper",
+        "medium": "Pen and Marker on Paper",
         "date": 2023,
         "image": "./drawings/12.jpg",
         "artist": "Rafael Matias"
@@ -105,7 +105,7 @@
 
 
     {
-    "type": "Instrumental Demo",
+    "type": "music",
     "title": "Birth of the Universe",
     "medium": "Metal",
     "date": 2023,
@@ -114,7 +114,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "Sulfur",
     "medium": "Metal",
     "date": 2023,
@@ -123,7 +123,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "Gallium",
     "medium": "Metal",
     "date": 2023,
@@ -132,7 +132,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "Arsenic",
     "medium": "Metal",
     "date": 2023,
@@ -141,7 +141,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Unfinished Demo",
+    "type": "music",
     "title": "Plutonium",
     "medium": "Metal",
     "date": 2023,
@@ -150,7 +150,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Loop",
+    "type": "music",
     "title": "Loop I",
     "medium": "Lo-fi",
     "date": 2023,
@@ -159,7 +159,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "Tesla Coil",
     "medium": "Metal",
     "date": 2023,
@@ -168,7 +168,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "Gaz Moutarde",
     "medium": "Metal",
     "date": 2023,
@@ -177,7 +177,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Instrumental Demo",
+    "type": "music",
     "title": "Oxygen",
     "medium": "Rock/Metal",
     "date": 2023,
@@ -186,7 +186,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "Ripples",
     "medium": "Rock/Metal",
     "date": 2023,
@@ -195,16 +195,16 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Instrumental Demo",
+    "type": "music",
     "title": "Oganesson",
     "medium": "Metal",
-    "date": 2023,
+    "date": 2022,
     "image": "./soundCloudImages/oganesson.jpg",
     "audio": "./audios/Oganesson.wav",
     "artist": "Rafael Matias"
     },
     {
-    "type": "Instrumental Demo",
+    "type": "music",
     "title": "Antimatter",
     "medium": "Rock/Metal",
     "date": 2023,
@@ -213,7 +213,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Instrumental Demo",
+    "type": "music",
     "title": "Bismuth",
     "medium": "Metal",
     "date": 2023,
@@ -222,7 +222,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Beat",
+    "type": "music",
     "title": "125",
     "medium": "Hip-Hop/Electronic Instrumental",
     "date": 2022,
@@ -231,7 +231,7 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Beat",
+    "type": "music",
     "title": "Despair",
     "medium": "Lo-fi/Hip-Hop",
     "date": 2022,
@@ -240,16 +240,16 @@
     "artist": "Rafael Matias"
     },
     {
-    "type": "Riff",
+    "type": "music",
     "title": "S.P.O.O.K",
     "medium": "Math Rock/Polyphia Style",
     "date": 2022,
-    "image": "./soundCloudImages/S.P.O.O.K.jpg",
+    "image": "./soundCloudImages/spook.jpg",
     "audio": "./audios/S.P.O.O.K.wav",
     "artist": "Rafael Matias"
     },
     {
-    "type": "Ambient Experimental",
+    "type": "music",
     "title": "FILE. 1584611311",
     "medium": "Ambient Experimental",
     "date": 2022,

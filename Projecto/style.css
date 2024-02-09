@@ -25,6 +25,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+    position: relative;
+    box-sizing: border-box; 
 
 }
 
@@ -43,6 +48,15 @@
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
 } 
 
+.current-dot {
+    color: white;
+}
+
+.selected-art-piece {
+border: 1px solid black;
+}
+
+/*---------------------------------------------------------------*/
 
 * {
     margin: 0;
@@ -175,9 +189,10 @@ p {
     flex: 1;
     background: linear-gradient(to top right, rgba(41, 43, 38, 1), rgba(255, 255, 255, 1));
     overflow: hidden;
+    position: relative;
 }
 
-h4 {
+#artworks-title {
     font-family:'Sansita', sans-serif ;
     text-transform: uppercase;
     font-size: 14.83vw;
@@ -185,6 +200,14 @@ h4 {
     background-color: rgba(127, 255, 212, 0);
 }
 
+#compositions-title {
+    font-family:'Sansita', sans-serif ;
+    text-transform: uppercase;
+    font-size: 10.98vw;
+    margin-left: -0.5%; 
+    margin-top: -5.21%; 
+    background-color: rgba(127, 255, 212, 0);
+}
 
 /*------------------------------------------------*/
 /*CARROUSSEL ELEMENTS*/
@@ -201,18 +224,31 @@ h4 {
 
 #art-gallery {
     display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 100px;
     align-items: center;
     justify-content: space-between;
-    height: 80%;
+    height: 90%;
     width: 100%;
-    margin-top: 0.5rem;
-    /* background-color: blue; */
+    background: linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(2, 2, 2, 0.5));
+    position: relative;
+
+    scrollbar-width: none; /* Hide scrollbar in Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar in Internet Explorer 10+ */
 }
 
 .art-info {
     height: 15%;
     width: 29rem;
-    /* background-color: blueviolet; */
+    position: absolute;
+    left: 25%; /* Adjust as needed */
+    top: 92.3%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+
+    
+    
+    margin-top: 2rem;
 }
 
 #main-image-area {
@@ -245,6 +281,7 @@ h5 {
     justify-content: center;
     /* background-color: green; */
     max-height: 5%;
+    position: relative;
 
 }
 
