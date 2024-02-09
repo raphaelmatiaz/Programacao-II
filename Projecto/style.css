@@ -26,8 +26,8 @@
     justify-content: center;
     align-items: center;
     box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.7);
-    margin-top: 1rem;
-    margin-bottom: 1rem; 
+    /* margin-top: 1rem;
+    margin-bottom: 1rem;  */
     position: relative;
     box-sizing: border-box; 
 
@@ -70,7 +70,7 @@ body {
     display: flex;
     flex-direction: row;
     z-index: 1;
-    /* overflow: hidden; */
+    overflow: hidden; 
 
 }
 
@@ -97,6 +97,19 @@ body {
     margin-top: 3%;
 }
 
+.pause-button {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    border-radius: 100%;
+}
+
+.play-button {
+    width: 4rem;
+    height: 4rem;
+    position: absolute;
+    border-radius: 100%;
+}
 
 
 h1 {
@@ -152,11 +165,20 @@ p {
 }
 
 #about-text {
+    text-align: justify;
     display: grid;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 75%;
+    max-height: 12.5%;
+    overflow: scroll;
+    scrollbar-width: none;
+    margin-bottom: 0.5rem;
+    
+}
+
+
 }
 
 #about-text p {
@@ -176,8 +198,10 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin-top: 2rem;
+
     /* width: 100%; */
-    /* background-color: red; */
+    /* background-color: red;  */
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -187,6 +211,7 @@ p {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: space-between;
     background: linear-gradient(to top right, rgba(41, 43, 38, 1), rgba(255, 255, 255, 1));
     overflow: hidden;
     position: relative;
@@ -231,7 +256,7 @@ p {
     justify-content: space-between;
     height: 90%;
     width: 100%;
-    background: linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(2, 2, 2, 0.5));
+    /* background: linear-gradient(to top left, rgba(255, 255, 255, 0.5), rgba(2, 2, 2, 0.5)); */
     position: relative;
 
     scrollbar-width: none; /* Hide scrollbar in Firefox */
@@ -241,10 +266,11 @@ p {
 .art-info {
     height: 15%;
     width: 29rem;
+    margin-bottom: 1rem;
     position: absolute;
-    left: 25%; /* Adjust as needed */
-    top: 92.3%; /* Adjust as needed */
-    transform: translate(-50%, -50%);
+    left: 25%;  
+    top: 91.9%;  
+    transform: translate(-50%, -50%);  
 
     
     
