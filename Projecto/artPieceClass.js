@@ -29,7 +29,7 @@ export default class ArtPiece {
         this.view.addEventListener('mouseenter', () => {
         // console.log("mouseEnter Working")
         this.view.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.7)";
-        this.view.style.border = "2px solid black"
+        this.view.style.border = "1px solid black"
 
         // selecionar elementos html
         const infoContainer = document.querySelector(".art-info");

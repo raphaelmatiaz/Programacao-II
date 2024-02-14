@@ -6,7 +6,6 @@ export default class Drawing extends ArtPiece {
         super(data)
 
         
-
         const title = document.querySelector("h4");
         this.view.addEventListener("mouseenter", () => {
             title.textContent = "Artworks";
