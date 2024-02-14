@@ -1,66 +1,29 @@
 import ArtPiece from "./artPieceClass.js";
 
 export default class Composition extends ArtPiece {
+
     audio;
     constructor(data) {
         super(data)
 
         this.audio = data.audio;
         
-        // let playStatus = null;
-        // let audioPlayer;
-        // let currentSong;
-
-
+        // seleciona o título da secção gallery (Artworks ou Composistions)
         const title = document.getElementById("artworks-title");
+
+        //adiciona um mouseenter event listner
         this.view.addEventListener("mouseenter", () => {
-        // Remove the current ID
-        title.removeAttribute("artworks-title");
 
-        // Add a new ID
-        title.setAttribute("id", "compositions-title");
-        title.textContent = "Compositions";
-        })
+            // remover o ID atual
+            title.removeAttribute("artworks-title");
+
+            // atribuir um novo ID e um novo texto
+            title.setAttribute("id", "compositions-title");
+            title.textContent = "Compositions";
+            })
 
 
-        // this.view.addEventListener('click', () => {
-                
-        //     switch (playStatus) {
-
-        //             case null:
-
-        //                 if (currentSong != this.name) {
-        //                     const allAudios = document.querySelectorAll('audio')
-        //                     allAudios.forEach(audio => {
-        //                         audio.parentNode.removeChild(audio);
-        //                     });
-        //                 } 
-                        
-        //                 else {
-        //                 audioPlayer = document.createElement("audio");
-        //                 audioPlayer.src = this.audio;
-        //                 this.view.appendChild(audioPlayer);
-        //                 audioPlayer.play();
-        //                 playStatus = "playing";
-        //                 currentSong = this.name;
-        //                 }
-        //                 break;
-
-        //             case "playing":
-        //                 // Pause the audio
-        //                 audioPlayer.pause();
-        //                 // Update the play status
-        //                 playStatus = "paused";
-        //                 break;
-        //             case "paused":
-        //                 // Resume playing the audio
-        //                 audioPlayer.play();
-        //                 // Update the play status
-        //                 playStatus = "playing";
-        //                 break;
-        //         }
-        //     });
-
+        // audioPlayer
         let song = document.querySelector('audio');   
         let currentSong;
         let isPlaying = false;

@@ -1,8 +1,10 @@
 export default class ArtPiece {
 
+    
     view;
     constructor(data) {
 
+        // pegar nos dados json e atribui-los ao constructor de ArtPiece
         this.type = data.type;
         this.title = data.title;
         this.medium = data.medium;
@@ -10,7 +12,9 @@ export default class ArtPiece {
         this.image = data.image;
         this.audio = data.audio;
         this.artist = data.artist;
+        
 
+        // criar img containers e images, e fazer append das imagens nos containers
         this.view = document.createElement("div");
         this.view.className = "art-wrapper";
         const img = document.createElement("img");
@@ -18,42 +22,31 @@ export default class ArtPiece {
         img.className = "artPiece";
         this.view.appendChild(img);
 
-
-        // selecionar elementos html e dar update on click das informações da obra selecionada
-
-        let artTitle = document.body.querySelector("#art-title");
-        let artMedium = document.body.querySelector("#art-medium")
-        let year = document.body.querySelector("#year")
-        const allElements = document.querySelectorAll('*');
-        
-        // this.view.addEventListener('click', () => {
-        //     artTitle.textContent = this.title;
-        //     artMedium.textContent = this.medium;
-        //     year.textContent = this.date;
-
-        //     allElements.forEach(element => {
-        //         removeAllClass()
-        //     })
-        //     this.view.className = "selected-art-piece";
-        // })
-
+    
+        // (BONUS: Usar o evento onclick para cada obra de arte que mostre os seus dados na consola do browser.)
+        // atribuir evento mouseenter -> mouseout e estilizar em consequência a cada ArtPiece
         this.view.addEventListener('mouseenter', () => {
-            artTitle.textContent = this.title;
-            artMedium.textContent = this.medium;
-            year.textContent = this.date;
-            this.view.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.7)";
-            this.view.style.border = "2px solid black"
+        // console.log("mouseEnter Working")
+        this.view.style.boxShadow = "10px 10px 10px rgba(0, 0, 0, 0.7)";
+        this.view.style.border = "2px solid black"
 
+        // selecionar elementos html
+        const infoContainer = document.querySelector(".art-info");
+        let title = document.querySelector("#art-title");
+        let artist = document.querySelector("#art-medium");
+        let year = document.querySelector("#year");
 
+        // fazer update desses elementos
+        title.innerText = this.title;
+        artist.innerText = this.artist;
+        year.innerText = this.year;
         })
 
         this.view.addEventListener('mouseout', () => {
-            this.view.style.boxShadow = null;
-            this.view.style.border = "0px"
+        // console.log("MouseOut Working")
+        this.view.style.boxShadow = null;
+        this.view.style.border = "0px"
         })
-        
-
-    
-
     }
 }
+
