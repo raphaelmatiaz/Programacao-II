@@ -12,7 +12,7 @@ export default class Gallery {
     constructor() {
         this.view = document.querySelector("#art-gallery");
 
-    this.view.onclick = () => {
+        this.view.onclick = () => {
 
     }
 

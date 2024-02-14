@@ -9,10 +9,8 @@ window.onload = async () => {
     const request = await fetch("art.json");
     const result = await request.json();
 
-    // criar uma nova Gallery com Callback
-    const gallery = new Gallery((itemData) => {
-        Info.update(itemData);
-    });
+    // criar uma nova Gallery
+    const gallery = new Gallery()
     
     // para cada objecto no resultado do json, adicionar o objecto à Gallery. (ESPECIFICAÇÃO: Implementar loops for ou foreach para iterar sobre o array de obras de arte.)
     result.forEach(obj => {

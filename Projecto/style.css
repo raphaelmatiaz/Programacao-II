@@ -214,6 +214,25 @@ p {
     position: relative;
 }
 
+#current-song-info {
+    /* background-color: rgb(255, 0, 0);  */
+    z-index: 90;
+    width: fit-content;
+    height: fit-content;
+    height: 15%;
+    width: 29rem;
+    margin-bottom: 1rem;
+    position: absolute;
+    left: 25%;  
+    top: 91.9%;  
+    transform: translate(50%, -50%);  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
 #artworks-title {
     font-family:'Sansita', sans-serif ;
     text-transform: uppercase;

@@ -23,7 +23,8 @@ export default class ArtPiece {
         this.view.appendChild(img);
 
     
-        // (BONUS: Usar o evento onclick para cada obra de arte que mostre os seus dados na consola do browser.)
+
+
         // atribuir evento mouseenter -> mouseout e estilizar em consequência a cada ArtPiece
         this.view.addEventListener('mouseenter', () => {
         // console.log("mouseEnter Working")
@@ -47,6 +48,15 @@ export default class ArtPiece {
         this.view.style.boxShadow = null;
         this.view.style.border = "0px"
         })
+
+
+        // (BONUS: Usar o evento onclick para cada obra de arte que mostre os seus dados na consola do browser.)
+
+        
+
+        this.view.addEventListener('click', () => {
+            console.table(data)
+
+        })
     }
 }
-
