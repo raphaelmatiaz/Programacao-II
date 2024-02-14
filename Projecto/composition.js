@@ -63,10 +63,13 @@ export default class Composition extends ArtPiece {
                 isPlaying = true;
                 currentSong = this.name;
             }
-
-
-
         });
+
+        song.addEventListener('ended', () => {
+            songStatus.innerText = "";
+            currentSongPlaying.innerText = "";
+        })
+
         };
     }
 
