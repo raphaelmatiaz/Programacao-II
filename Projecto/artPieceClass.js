@@ -51,11 +51,18 @@ export default class ArtPiece {
 
 
         // (BONUS: Usar o evento onclick para cada obra de arte que mostre os seus dados na consola do browser.)
-
-        
-
         this.view.addEventListener('click', () => {
             console.table(data)
+
+        let selectedImg = document.querySelector("#selected-img");
+        selectedImg.src = this.image;
+
+        let zoomedImgDiv = document.querySelector("#zoomDrawing");
+
+
+        let goBackButton = document.querySelector("button");
+        selectedImg.src = "";
+
 
         })
     }
