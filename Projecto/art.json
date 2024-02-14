@@ -224,7 +224,7 @@
     {
     "type": "music",
     "title": "125",
-    "medium": "Hip-Hop/Electronic Instrumental",
+    "medium": "Electronic",
     "date": 2022,
     "image": "./soundCloudImages/125.jpg",
     "audio": "./audios/125.wav",
@@ -242,7 +242,7 @@
     {
     "type": "music",
     "title": "S.P.O.O.K",
-    "medium": "Math Rock/Polyphia Style",
+    "medium": "Math Rock",
     "date": 2022,
     "image": "./soundCloudImages/spook.jpg",
     "audio": "./audios/S.P.O.O.K.wav",
@@ -251,7 +251,7 @@
     {
     "type": "music",
     "title": "FILE. 1584611311",
-    "medium": "Ambient Experimental",
+    "medium": "Ambient/Experimental",
     "date": 2022,
     "image": "./soundCloudImages/file.jpg",
     "audio": "./audios/FILE.1584611311.wav",

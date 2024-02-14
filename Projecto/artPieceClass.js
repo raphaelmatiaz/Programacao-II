@@ -39,8 +39,8 @@ export default class ArtPiece {
 
         // fazer update desses elementos
         title.innerText = this.title;
-        artist.innerText = this.artist;
-        year.innerText = this.year;
+        artist.innerText = this.medium;
+        year.innerText = this.date;
         })
 
         this.view.addEventListener('mouseout', () => {
